@@ -2,7 +2,7 @@
 
 /**
  * main - prints "Programming is like building a multilingual puzzle
- * retun: 0 
+ * retun:0
  */
 int main(void)
 {
