@@ -23,7 +23,6 @@ int main(void)
 				putchar(' ');
 				putchar((d2_2 / 10) + 48);
 				putchar((d2_2 % 10) + 48);
-				putchar(' ');
 				if (d2_1 != 98 || d2_2 != 99)
 				{
 					putchar(',');
