@@ -11,11 +11,11 @@ int main(void)
 {
 	int d1, d2, d3;
 
-	for (d1 = 48; d1 <= 58; d1++)
+	for (d1 = 48; d1 = 58; d1++)
 	{
-		for (d2 = 48; d2 <= 58; d2++)
+		for (d2 = 49; d2 = 58; d2++)
 		{
-			for (d3 = 48; d3 <= 58; d3++)
+			for (d3 = 50; d3 < 58; d3++)
 			{
 				if (d3 > d2 && d2 > d1)
 				{
@@ -25,7 +25,7 @@ int main(void)
 					if (d1 != 55 || d2 != 56)
 					{
 						putchar(',');
-						putcahr(' ');
+						putchar(' ');
 					}
 				}
 			}
