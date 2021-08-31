@@ -11,6 +11,7 @@ int _isalpha(int c)
 	if (isalpha(c))
 	{
 		_putchar(49);
+		return(1)
 	}
 	else
 	{
