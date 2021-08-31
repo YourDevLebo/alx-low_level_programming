@@ -10,13 +10,11 @@ int _isalpha(int c)
 {
 	if (isalpha(c))
 	{
-		_putchar(49);
-		return(1);
+		return (1);
 	}
 	else
 	{
-		_putchar(48);
+		return (0)
 	}
 	_putchar('\n');
-	return (0);
 }
