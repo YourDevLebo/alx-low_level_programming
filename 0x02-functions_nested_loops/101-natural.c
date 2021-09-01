@@ -25,6 +25,6 @@ int main(void)
 		}
 	}
 	msum = m3 + m5;
-	printf("%lu\n", sum);
+	printf("%lu\n", msum);
 	return (0);
 }
