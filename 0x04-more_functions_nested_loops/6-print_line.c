@@ -2,7 +2,7 @@
 
 /**
  * print_line - draws a line in the terminal
- * @n: n of lines(_)
+ * @n: n of _ character
  */
 void print_line(int n);
 {
