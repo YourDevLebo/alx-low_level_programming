@@ -4,7 +4,7 @@
  * print_line - draws a line in the terminal
  * @n: n of _ character
  */
-void print_line(int n);
+void print_line(int n)
 {
 	if (n <= 0)
 	{
