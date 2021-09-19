@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		_putchar("Error\n");
+		printf("Error\n");
 		return (1);
 	}
 
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
 	if (num < 0)
 	{
-		_putchar("0\n");
+		printf("0\n");
 		return (0);
 	}
 
@@ -38,6 +38,6 @@ int main(int argc, char *argv[])
 		}
 	}
 
-	_putchar("%d\n", result);
+	printf("%d\n", result);
 	return (0);
 }
